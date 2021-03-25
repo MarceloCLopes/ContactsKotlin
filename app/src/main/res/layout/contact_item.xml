@@ -21,7 +21,7 @@
             app:layout_constraintBottom_toBottomOf="@id/tv_phone"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/tv_name"
-            tools:src="@drawable/ic_launcher_foreground" />
+            tools:src="@mipmap/ic_launcher_round" />
 
         <TextView
             android:id="@+id/tv_name"
@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:textSize="14sp"
+            style="@style/TextViewDefault"
             app:layout_constraintStart_toEndOf="@id/iv_photograph"
             app:layout_constraintTop_toBottomOf="@id/tv_name"
             tools:text="(00) 0000-00000" />
